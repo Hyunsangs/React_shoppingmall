@@ -1,0 +1,18 @@
+html {
+    text-align: center;
+    letter-spacing: -0.8px;
+}
+.main-bg {
+    height: 400px;
+    background-image: url('./img/main2.jpg');
+    background-size: auto;
+    background-position: center;
+}
+
+.start {
+    opacity: 0;
+}
+.end {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
